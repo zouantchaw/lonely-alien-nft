@@ -4,6 +4,30 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.blurb h2 {
+  color: rgb(202, 255, 0);
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: white;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.list-group {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 4;
+}
+
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
@@ -43,4 +67,15 @@ body {
   font-weight: 100;
   font-size: 3rem;
 }
+}
+
+svg {
+  border-radius: 50%;
+  width: 3%;
+  filter: invert(90%) sepia(95%) saturate(6220%) hue-rotate(13deg) brightness(99%) contrast(105%);
+}
+
+.navbar.scrolled {
+    background: red;
+    transition: background 500ms;
 }
